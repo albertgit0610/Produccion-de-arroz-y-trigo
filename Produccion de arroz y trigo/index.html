@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produccion de arroz</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <center>
+    <div class="conteinel">
+        <div class="fabrica-card card ">
+            <div class="fabrica">
+                <div class="fabrica-display"></div>
+                <div class="fabrica-keys">
+                    <h3>Calcular cantidad de arroz producida en la semana</h3>
+                    <h5>cantidad inical de trigo</h5>
+                    <label for="trigo"></label>
+                    <input class="cantidad" type="number" id="trigo" required>
+                    <label for="dia"></label>
+                    <h5>selecciona dia</h5>
+                    <div class="input-field col s12"></div>
+                    <select class="btn-floating btn-large pulse waves-light btn blue darken-4" id="dia" required>
+                        <option class="action" value=""disabled selected>Dias</option>
+                        <option class="action" value="lunes">Lunes</option>
+                        <option class="action" value="martes">Martes</option>
+                        <option class="action" value="miercoles">Miercoles</option>
+                        <option class="action" value="jueves">Jueves</option>
+                        <option class="action" value="viernes">Viernes</option>
+                        <option class="action" value="sabado">Sabado</option>
+                        <option class="action" value="domingo">Domingo</option>
+                    </select>
+                        
+                    </div>
+                </div>
+                <button class="waves-effect waves-light blue darken-4 btn-small" type="button" onclick="calcularProduccion()">Calcular</button>
+                <div id="resultado"></div>
+            </div>
+        </div>
+    </div>
+    
+    <h3>
+  
+    </h3>
+</center>
+            
+           
+    <script src="index.js"></script>
+</body>
+</html>

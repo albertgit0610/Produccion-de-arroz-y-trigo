@@ -1,0 +1,42 @@
+body {
+    background-image: url('arroz1.jpg');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fabrica-card {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+h4, h5{
+    color: rgb(3, 100, 167);
+    text-decoration: #939699;
+}
+
+.action {
+    width: 100%;
+    background: #182832;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px salid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+}
+
+.cantidad {
+    color: aliceblue;
+}
